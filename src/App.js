@@ -82,15 +82,24 @@ const LocationSelector = () => {
       </label>
       </div>
 
-      {selectedCity && (
+     {/* // {selectedCity && (
          <div className="selected-location">
            <h4>You selected</h4>
            <h3>{selectedCity},</h3>
            <h4 className="grey-text">{selectedState}, {selectedCountry}</h4>
-         </div>
-      )}
+         </div>*/ }
+      {/* )} */}
+      {selectedCountry && selectedState && selectedCity && (
+  <h2>
+    You selected <span className="highlight">{selectedCity}</span>,{" "}
+    <span className="fade">
+      {selectedState}, {selectedCountry}
+    </span>
+  </h2>
+)}
     </div>
   );
-};
+};//
 
 export default LocationSelector;
+
