@@ -46,3 +46,18 @@ select {
 .grey-text {
   color: grey;
 }
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  }
+  
+  .highlight {
+  color: #007bff; /* Highlighted text color */
+  font-weight: bold;
+  font-size: xx-large;
+  }
+  
+  .fade {
+  color: #777; /* Faded text color */
+  font-style: italic;
+  }
